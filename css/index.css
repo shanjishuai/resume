@@ -1,0 +1,187 @@
+*{margin:0;padding:0;}
+#dowebok .section{
+	background-size:100%;
+}
+#dowebok .section:first-of-type{
+	background:url(../img/be-02.jpg)no-repeat center center;
+	align-items:center;
+	display:flex;
+}
+#dowebok .section:nth-of-type(2){
+	background:url(../img/be-06.jpg)no-repeat center center;
+}
+#dowebok .section:nth-of-type(3){
+	background:url(../img/be-05.jpg)no-repeat center center;
+}
+#dowebok .section:nth-of-type(4){
+	background:url(../img/be-04.jpg)no-repeat center center;
+}
+#fp-nav ul li a span{
+	border: 1px solid #FFFFFF;
+}
+#dowebok .section:first-of-type .Headportrait{
+	display:block;
+	width:200px;
+	height:200px;
+	margin:auto;
+	margin-top:14%;
+	border-radius:50%;
+	padding:10px;
+	animation:bos 3s infinite;
+}
+@keyframes bos{
+		10%{
+			background:rgb(255,255,255,0.2);
+		}
+		20%{
+			background:rgb(255,255,255,0.4);
+		}
+		30%{
+			background:rgb(255,255,255,0.6);
+		}
+		40%{
+			background:rgb(255,255,255,0.8);
+		}
+		50%{
+			background:rgb(255,255,255,1);
+		}
+		60%{
+			background:rgb(255,255,255,0.8);
+		}
+		70%{
+			background:rgb(255,255,255,0.6);
+		}
+		80%{
+			background:rgb(255,255,255,0.4);
+		}
+		90%{
+			background:rgb(255,255,255,0.2);
+		}
+		100%{
+			background:rgb(255,255,255,0.1);
+		}
+}
+#dowebok .section:first-of-type .Headportrait img{
+	width:100%;
+	border-radius:50%;
+}
+#dowebok .section:first-of-type h2{
+	display:block;
+	width:100px;
+	margin:auto;
+}
+#dowebok .section:first-of-type h2 img{
+	width:100%;
+}
+#dowebok .section:first-of-type .text{
+	color:black;
+	font-size:1.25rem;
+	font-family:'楷体';
+} 
+.demoo{
+	width:975px;
+	margin: 50px auto;
+}
+#demo{
+	float:left;
+	width: 325px;
+}
+.circlechart {
+	padding: 20px;
+}
+.textlist{
+	color:black;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.htmleaf-container #demo p{
+	font-size:20px;
+}
+.demoo #demo p{
+	color:orange;
+}
+h2{
+	color:black;
+	display: block;
+	padding-top:65px;
+	font-size:30px;
+}
+h2 span:nth-of-type(1){
+	padding-right:10px;
+}
+h2 span:nth-of-type(2){
+	padding-left:10px;
+}
+.works{
+	width:660px;
+	margin:30px auto;
+}
+.works .circular{
+	width:200px;
+	height:300px;
+}
+.works .circular a{
+	display:block;
+	width:200px;
+	height:300px;
+	background:black;
+	position:relative;
+	overflow:hidden;
+}
+.works .circular a .zuo{
+	position:absolute;
+	/* top:-378px; */
+	left:0px;
+	height:auto;
+	max-width:100%;
+	transition:.5s;
+}
+.contact{
+	width:1200px;
+	margin:0 auto;
+}
+.contact img{
+	width:100%;
+}
+.contact .qq{
+	width:400px;
+	padding:20px;
+	float:left;
+}
+.contact .telephone{
+	width:400px;
+	padding:20px;
+	float:left;
+}
+.contact .telephone p{
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	text-align:left;
+	color:black;
+	text-indent:50px;
+	position:relative;
+}
+.contact .telephone p:nth-of-type(1){
+	margin-top:70%;
+}
+.contact .telephone p span{
+	position:absolute;
+	left:-35px;
+	top:6px;
+}
+.contact .wechat{
+	width:400px;
+	padding:20px;
+	float:left;
+}
+.works .circular p{
+	display:block;
+	font-size:20px;
+	margin-top:10px;
+	color: black;
+}
+.circular{
+	float:left;
+	margin-right:20px;
+}
